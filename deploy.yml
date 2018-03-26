@@ -1,0 +1,7 @@
+- hosts: "docker"
+     
+  
+  roles:
+    - { role: deploy, become: yes }
+    
+
